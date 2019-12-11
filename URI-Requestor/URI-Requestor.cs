@@ -148,7 +148,7 @@ namespace URIRequestor
 			foreach (string item in ResultsListBox.SelectedItems)
 				clipboardText += item + "\r\n";
 			
-			Clipboard.SetText(clipboardText);
+			Clipboard.SetText(clipboardText.Trim());
 		}
 	}
 }
